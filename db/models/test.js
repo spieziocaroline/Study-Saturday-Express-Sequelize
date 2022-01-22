@@ -17,3 +17,17 @@ Test.belongsTo(Student);
 Student.hasMany(Test);
 
 module.exports = Test;
+
+// const Test = db.define('test', {
+//   subject: {
+//     type: Sequelize.STRING,
+//     allowNull: false,
+//   },
+//   grade: {
+//     type: Sequelize.INTEGER,
+//     allowNull: false,
+//   },
+// });
+
+// Test.belongsTo(Student);
+// Student.hasMany(Test);
